@@ -128,23 +128,28 @@ following styles will be applied.
         width: 300px;
         height: 297px;
     }
+
     input[type="text"],
     input[type="password"] {
         width: 250px;
         font-size: 15px;
     }
+
     .btn {
         font-size: 14px;
         width: 225px;
         height: 40px;
         margin: 15% 0 0 7%;
     }
+
     .forgot a {
         margin: 0 0 0 25%;
     }
+
     .chk {
         margin: 6% 0 0 0;
     }
+    
     .rem { 
         margin: 6% 0 0 5%;
     }
