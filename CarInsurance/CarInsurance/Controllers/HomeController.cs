@@ -13,18 +13,11 @@ namespace CarInsurance.Controllers
             return View();
         }
 
-        public ActionResult About()
+        [HttpPost]
+        public ActionResult Quote(string FirstName, string LastName, string EmailAddress, string DateOfBirth, string CarYear, string CarMake,
+            string CarModel, string Dui, string MovingViolations, string CoverageType)
         {
-            ViewBag.Message = "Your application description page.";
 
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
         }
     }
 }
